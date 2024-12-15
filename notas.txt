@@ -1,0 +1,26 @@
+Visualizing database:
+PS C:\Users\AlexFidalgoZamikhows> cd C:\Users\AlexFidalgoZamikhows\Projects\QMC-Pe\donation_tracker
+PS C:\Users\AlexFidalgoZamikhows\Projects\QMC-Pe\donation_tracker> sqlite3 donations.db
+SQLite version 3.47.2 2024-12-07 20:39:59
+Enter ".help" for usage hints.
+sqlite> .tables
+donations
+sqlite> SELECT * FROM donations;
+
+Build the Docker image (This will create an image named donation-tracker):
+docker build -t donation-tracker .
+
+Run the Flask app inside a Docker container:
+docker run -d -p 5000:5000 --name donation-tracker donation-tracker
+
+See the Flask app running:
+http://localhost:5000
+
+Share the docker image:
+    Export the image to a .tar file:
+        docker save -o donation-tracker.tar donation-tracker
+    Your colleagues can load the image on their systems using:
+        docker load -i donation-tracker.tar
+    They can then run it with:
+        docker run -d -p 5000:5000 donation-tracker
+    Optionally, log in to Docker Hub

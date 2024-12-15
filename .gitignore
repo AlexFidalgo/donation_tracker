@@ -1,0 +1,54 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# SQLite database file
+*.db
+
+# Selenium WebDriver binaries
+chromedriver.exe
+
+# Environment variables and secrets
+.env
+
+# Logs
+*.log
+
+# Cache and temporary files
+*.cache
+*.bak
+*.swp
+*.tmp
+*.temp
+
+# Jupyter Notebook checkpoints (if used in the project)
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+tira_print_venv/
+env/
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Static and media files (if dynamically generated)
+staticfiles/
+media/
+
+# IDE files
+.vscode/
+.idea/
+
+# Docker-related files
+*.tar
+*.pid
