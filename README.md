@@ -1,6 +1,6 @@
 # Donation Tracker for Corinthians Website
 
-Donation Tracker is a project designed specifically for the Corinthians website to help track donations efficiently. It streamlines donor management, tracks contributions, and generates insightful reports, tailored for the Corinthians community.
+Donation Tracker is a project for the Corinthians website to help track donations efficiently. It streamlines donor management, tracks contributions, and generates reports.
 
 ## Features
 
@@ -83,8 +83,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or support related to this project, please reach out:
 
-- **Email**: your-email@example.com
-- **GitHub**: [your-username](https://github.com/your-username)
+- **Email**: alexfidalgo10@gmail.cm
+- **GitHub**: [Alex Fidalgo](https://github.com/AlexFidalgo)
 
 ---
 
